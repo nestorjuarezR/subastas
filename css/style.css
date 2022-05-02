@@ -6,33 +6,33 @@
  * Made By MaterializeCSS.com
  */
 
-nav{
+nav {
   background-color: #212121;
 }
 
-.logo{
+.logo {
   height: 70px;
   padding-left: 20px;
 }
 
-.barra-navegacion{
+.barra-navegacion {
   padding-left: 10px;
 }
 
 nav ul a,
 nav .brand-logo {
-  color:  whitesmoke;
+  color: whitesmoke;
 }
 
 p {
   line-height: 2rem;
 }
 
-#input-format{
+#input-format {
   color: whitesmoke;
 }
 
-#boton-registrarse{
+#boton-registrarse {
   margin-top: 15px;
   position: relative;
   right: -10%;
@@ -42,7 +42,7 @@ p {
   color: #26a69a;
 }
 
-#registro-banner{
+#registro-banner {
   padding-top: 40px;
 }
 
@@ -50,12 +50,13 @@ p {
   min-height: 400px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: fill;
 }
+
 .parallax-container .section {
   width: 100%;
 }
@@ -65,10 +66,16 @@ p {
 } */
 
 @media only screen and (max-width : 992px) {
+
+  .parallax-container {
+    min-height: 500px;
+  }
+
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -83,6 +90,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
