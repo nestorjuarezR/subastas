@@ -61,6 +61,12 @@ p {
   width: 100%;
 }
 
+
+#card-image{
+  height: 160px;
+  object-fit: cover;
+}
+
 /* #footer {
   background-color: #212121;
 } */
