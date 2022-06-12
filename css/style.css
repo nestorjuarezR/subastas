@@ -19,10 +19,6 @@ nav {
   padding-left: 10px;
 }
 
-nav ul a,
-nav .brand-logo {
-  color: whitesmoke;
-}
 
 nav ul li:hover {
   background-color: #414040d0;
