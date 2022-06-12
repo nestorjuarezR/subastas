@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- CSS -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <!--   Barra de navegacion-->
+    <nav class="barra-navegacion" role="navigation">
+        <div class="nav-wrapper ">
+            <a id="logo-container" href="index.html" class="brand-logo"><img src="./images/logo.png" alt="" class="logo"></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="products.html">Categorias</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="products.html">Categorias</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+
+
+    <div class="container ">
+        <div class="row">
+            <div class="col l6 offset-l3">
+                <div class="l6 center-align">
+                    <h4>Inicio de sesion</h4>
+                </div>
+                <div class="card-panel ">
+                    <form action="" method="post">
+
+                        <div class=" input-field l4">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="text" placeholder="Ingrese su Usuario" id="username" class="validate"
+                                name="username" required>
+                            <label for="username">Usuario</label>
+                        </div>
+                        <div class=" input-field ">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="password" placeholder="Ingrese su Usuario" id="password" class="validate"
+                                name="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="center-align">
+                            <button class="btn center-align" type="submit"><i
+                                    class="material-icons right">send</i>Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer grey darken-4" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Company Bio</h5>
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
+                        repudiandae.</p>
+
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Legales</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Plataformas</h5>
+                    <ul>
+                        <li>
+                            <a class="material-icons white-text" href="">android</a>
+                            <a class="material-icons white-text" href="">laptop_mac</a>
+                            <a class="material-icons white-text" href="">phone_iphone</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="brown-text text-lighten-3" href="http://nestorjuarezr.github.io" target="blank">Néstor
+                    Juárez</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/js/prueba.js"></script>
+
+</body>
+
+</html>
