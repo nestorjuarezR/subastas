@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances_sidenav = M.Sidenav.init(sidenav_);
 });
  
-// Funcion para el menu lateral
 
 // Funcion para el menu dropdown
 document.addEventListener('DOMContentLoaded', function() {
