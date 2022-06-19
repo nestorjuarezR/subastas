@@ -14,7 +14,9 @@
       format: 'yyyy-mm-dd',
       yearRange: [1910, 2022]
   });
-
+  $('.slider').slider({
+    indicators: false
+  });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
