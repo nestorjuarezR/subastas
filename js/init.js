@@ -10,7 +10,7 @@
         constrainWidth: true
     });
     $('.datepicker').datepicker({
-      isRTL: true,
+      firstDay: 1,
       selectYears: 90,
       format: 'yyyy-mm-dd',
       yearRange: [1910, 2022]
