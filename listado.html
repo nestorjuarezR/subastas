@@ -25,6 +25,7 @@
 </head>
 
 <body>
+
     <!-- Dropdown Structure de la seccion Perfil -->
     <ul id="dropdown1" class="dropdown-content">
         <li><a href="in!">Usuario</a></li>
@@ -86,32 +87,25 @@
     </ul>
     <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">face</i></a> -->
 
-    <!-- Contenido -->
 
-    <div class="container">
+    <!-- Contenido -->
+    <div class="container section">
+        <h2>Fotografia</h2>
+
         <div class="row">
-            <div class="card-panel col l12 ">
-                <h3 class="card-tittle"> Camara Polaroid</h3>
-                <div class="divider"></div>
-                <div class="section">
-                    <div class="col s4 ">
-                        <img src="/images/canon_camera.jpg" class="responsive-img" alt="">
+
+            <div class="col s12 m6 l4">
+                <div class="card medium hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img " src="./images/banner2.jpg" id='card-image'>
                     </div>
-                    <div class="col l6 offset-s6 right">
-                        <div class="card-content left">
-                            <div class="card-panel  center-align teal lighten-1 "> Precio de apertura: $800</div>
-                            <div class="card-panel center-align amber lighten-1"> Ultima puja: $1400</div>
-                            <div class="row valign-wrapper">
-                                <div class="col l6">
-                                    <h5>Ofertar </h5>
-                                </div>
-                                <div class="input-field col l6">
-                                    <i class=" tiny material-icons prefix">attach_money</i>
-                                    <input type="text" class="validate" id="puja">
-                                </div>
-                                <a onclick="M.toast({html:  puja.value, classes: 'rounded'})" class="btn">Push!</a>
-                            </div>
-                        </div>
+                    <div class="card-title center-align">
+                        <h4 class=" grey-text text-darken-1">Canon</h4>
+                    </div>
+                    <div class="card-content center-align">
+                        <p class="green-text text-darken-2" >Status: Activa</p>
+                        <p class=" amber-text text-darken-4"">Finaliza: 30-Jun-2022</p>
+                        <p><a href="articulo.html">Ofertar </a></p>
                     </div>
                 </div>
             </div>
@@ -125,8 +119,8 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Company Bio</h5>
-                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Qui,
+                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Qui,
                         repudiandae.</p>
 
 
@@ -165,7 +159,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-    <!-- <script src="js/index.js"></script> -->
+    <script src="js/index.js"></script>
 
 </body>
 

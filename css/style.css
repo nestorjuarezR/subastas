@@ -69,9 +69,16 @@ p {
   object-fit: cover;
 }
 
+.section{
+  margin-top: 50px;
+}
 
 
 @media only screen and (max-width : 992px) {
+
+  .logo{
+    height: 45px;
+  }
 
   .parallax-container {
     min-height: 150px;
